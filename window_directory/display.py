@@ -36,7 +36,7 @@ class Display:
         self.display_lines_drawn_on_grid()
         self.display_highlighted_drawn_lines()
         self.display_selected_drawn_lines()
-        self.display_shape_fill()
+        # self.display_shape_fill()
 
         if self.selected_points.first_point is not None:
             self.connect_line_to_mouse()
