@@ -3,7 +3,6 @@
 
 ---
 ### Description
-
 Graphical User Interface that allows for drawing and editing of polygons.
 
 This project was undertaken as a challenge to create a GUI without using tkinter or other GUI packages.
