@@ -5,7 +5,7 @@ highlighted_vert_line = pygame.image.load('Assets/Highlighted vertical line.png'
 highlighted_hor_line = pygame.image.load('Assets/Highlighted horizontal line.png')
 red_dot = pygame.image.load('Assets/Chosen Point.png')
 MANUAL_CURSOR_IMG = pygame.image.load('Assets/Chosen Point.png')
-
+icon = pygame.image.load('Assets/icon.jpg')
 
 class Display:
 
@@ -22,7 +22,8 @@ class Display:
         self.grid_highlight_surface = pygame.Surface((WIDTH, HEIGHT), pygame.SRCALPHA)
         self.drawing_surface = pygame.Surface((WIDTH, HEIGHT), pygame.SRCALPHA)
 
-        pygame.display.set_caption("Title Here")
+        pygame.display.set_caption("")
+        pygame.display.set_icon(icon)
         pygame.mouse.set_visible(False)  # hide the cursor
 
     def display_window(self):
