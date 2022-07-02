@@ -13,7 +13,8 @@ This project was undertaken as a challenge to create a GUI without using tkinter
 ### Screenshots
 
 
-![image info](./window_directory/Assets/Project screenshot.png)
+![Screenshot of Window](window_directory/project_infromation/Project screenshot.png)
+![Video Demonstration](window_directory/project_infromation/example_video.gif)
 
 
 ---
